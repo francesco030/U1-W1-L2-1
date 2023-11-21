@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>esempi di form</title>
+  </head>
+  <body>
+    <main>
+      <h2>Registrazione utente</h2>
+      <form>
+        <div>
+          <label for="campo nome"> inserisci qui il tuo nome </label>
+          <input type="text" id="campo nome" required />
+        </div>
+        <div>
+          <label for="campo cognome"> inserisci qui il tuo cognome </label>
+          <input type="text" id="campo cognome" required />
+        </div>
+        <div>
+          <label for=" campo età"> inserisci qui la tua età </label>
+          <input type="number" min="0" max="99" ="campo età" required />
+        </div>
+        <div>
+          <label for="campo compleanno">
+            inserisci qui la tua data di nascita</label
+          >
+          <input type="date" id="campo compleanno" required />
+        </div>
+        <div>
+          <button type="submit">INVIA</button>
+        </div>
+        <div>
+          <label for=" campo strumenti"> Che strumenti sai suonare?</label>
+          <select id="campo strumenti"></select>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
